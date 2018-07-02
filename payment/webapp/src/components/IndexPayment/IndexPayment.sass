@@ -1,0 +1,137 @@
+@import '../../App.sass'
+
+.IndexHeader
+	background: url('../../assets/bg-payment-header.png')
+	height: 330px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	background-position-y: center;
+.logo
+	background: url('../../assets/logo.png')
+	height: 80px;
+	width: 209px;
+.profile_link
+	padding: 10px
+	background: #4a423d
+	color: #fff
+	padding-left: 38px;
+	font-weight: 500;
+	display: inline-block
+	position: relative;
+	&:before
+		content: ''
+		position: absolute;
+		height: 18px;
+		top: 14px;
+		width: 18px;
+		background: #fff;
+		left: 10px;
+		background: url('../../assets/icon-man.png')
+.user
+	text-align: center;
+	margin-top: 37px;
+	color: #fff;
+	&__name
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 15px;
+	&__email
+		font-size: 16px;
+		font-weight: lighter;
+		span
+			font-weight: 500
+			display: block
+			margin-bottom: 5px;
+.tickets-admin__title
+	font-size: 24px
+	font-weight: 500
+	color: #c7b884
+	text-align: center
+	padding: 25px 0 30px
+	border-bottom: 1px solid #c7b884
+	margin-bottom: 70px
+	text-transform: uppercase
+.ticket
+	padding: 0px 70px !important
+	&__data
+		text-align: center
+		color: #000
+		font-size: 16px
+		font-weight: 500
+		margin-bottom: 15px
+		text-transform: uppercase
+	&__img
+		margin: 0 auto
+		width: 145px
+		margin-bottom: 20px
+	a &__action-text
+		text-align: center
+		font-size: 8px
+		font-weight: 500
+		color: #000
+		text-transform: uppercase
+.icon-ticket
+	background: url('../../assets/icon-eye.png')
+	width: 36px
+	height: 36px
+	margin: 0 auto
+	margin-bottom: 10px
+.icon-ticket-lien
+	background: url('../../assets/icon-lien.png')
+.tickets-admin
+	min-height: 700px
+.tickets-admin-none
+	text-align: center
+	font-size: 16px
+	font-weight: lighter
+.DropdownHeader
+	flex-basis: 20%;
+	max-width: 20%;
+	margin-top: 16px;
+.menu-right
+	flex-basis: 20%;
+	max-width: 20%;
+	margin-top: 26px;
+.menu-left
+	flex-basis: 40%;
+	max-width: 40%;
+	margin-top: 26px;
+.DropdownHeader
+	&__item
+		position: absolute
+		width: 190px
+		background: #4a423d;
+	.Dropdown__list
+		width: 190px
+
+		margin-top: 10px
+		margin-left: -35px;
+		ul
+			li
+				display: block
+				padding: 0px
+				a
+					padding: 12px 9px 12px 40px;
+					font-size: 16px;
+					position: relative
+					font-weight: lighter;
+.Dropdown__icon
+	&:before
+		content: ''
+		position: absolute;
+		height: 17px;
+		top: 14px;
+		width: 18px;
+		background: #fff;
+		left: 10px;
+		background: url('../../assets/icon-man.png')
+.icon-settings
+	&:before
+		background: url('../../assets/icon-setub.png')
+.icon-go-out
+	&:before
+		background: url('../../assets/icon-exit.png')

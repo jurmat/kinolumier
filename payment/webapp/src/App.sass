@@ -1,0 +1,540 @@
+@import '../node_modules/bulma/bulma.sass'
+@import 'https://use.fontawesome.com/releases/v5.0.10/css/all.css'
+
+
+img
+	max-width 100%
+.wrapper
+	max-width: 1030px;
+	margin: 0 auto;
+	z-index: 2;
+	padding: 0 30px;
+.wrapper2
+	max-width: 580px;
+	margin: 0 auto;
+	z-index: 2;
+	padding: 0 30px;
+.clearfix::after
+	content: "";
+	display: table;
+	clear: both;
+
+
+.row
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -30px;
+	margin-left: -30px;
+.container
+	max-width: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+	z-index: 2;
+	padding: 0 30px;
+.clearfix
+	display: block;
+	content: "";
+	clear: both;
+.Modaltop
+	padding: 60px 0 40px
+	position: relative
+	border-bottom: 1px solid #cdb884
+	.title
+		text-align: center
+		font-size: 24px
+		color: #cdb884
+		margin-bottom: 0
+	.Modalexit
+		position: absolute;
+		top: 60px;
+		right: 40px;
+a.btn
+	font-size: 16px
+	color: #fff
+	text-transform: uppercase
+	padding: 10px 20px
+	background: #4a423d
+	font-weight: lighter
+.Modalinfo
+	display: flex
+	border-bottom: 1px solid #cdb884
+	margin-bottom: 20px
+	padding: 40px 0px 30px
+	.Modalinfo__img
+		flex-basis: 20%
+		max-width: 20%
+		text-align: center
+		img
+			width: 90px
+			height: 133px
+	.Modalinfo__value
+		flex-basis: 40%
+		max-width: 40%
+	.Modalinfo__Modalinfo__actors
+		flex-basis: 40%
+		max-width: 40%
+		font-weight: lighten
+		line-height: 17px
+		font-size: 14px
+		span
+			font-weight: bold
+			display: block
+	.Modalinfo__title
+		font-size: 21px
+		font-weight: bold
+		margin-top: -27px
+	.Modalinfo__param
+		font-weight: lighten
+		line-height: 17px
+		font-size: 14px
+		span
+			font-weight: bold
+.Modaldate
+	background: #fcfae7
+	.Modaldate_container
+		display: flex
+		margin-bottom: 30px;
+		padding: 20px 100px
+		position: relative
+	a.Modaldate__btn
+		color: #fff
+		text-decoration: none
+		margin: 0 10px
+		padding: 10px 25px
+		background: #4a423d
+	a.btn-bg-none
+		color: #4a423d
+		border: 1px solid #4a423d
+		background: none
+.Modalsession
+	padding: 30px 0 60px 0
+	.Modalsession__title-2
+		font-size: 16px
+		font-weight: bold
+		margin-bottom: 20px
+		text-align: center
+		color: #c7b884
+	.Modalsession__title
+		font-size: 24px
+		color: #c7b884
+		margin-bottom: 60px
+		text-align: center
+		font-weight: bold
+	.Modalsession__container
+		position: relative
+		padding: 20px 10px 20px 10px;
+		background: #fcfae7
+		color: #c7b884
+		text-align: center
+	.Modalsession__time
+		font-size: 24px;
+		font-weight: bold
+		margin-bottom: 10px
+	.Modalsession__price
+		font-size: 16px
+		font-weight: lighter
+	.Modalsession__space
+		font-size: 16px
+		position: absolute
+		bottom: 5px
+		right: 5px;
+	.Modalsession__hours
+		padding: 0 100px
+	.Modalsession__container-black
+		color: #fff
+		background: #4a423d
+a.Modalnext
+	color: #fff
+	background: #4a423d
+	padding: 10px 20px
+.Modalnext-container
+	padding: 0
+	margin: 0
+	margin-bottom: 30px;
+	display: -webkit-box
+	display: -moz-box
+	display: -ms-flexbox
+	display: -webkit-flex
+	display: flex
+	align-items: center
+	justify-content: center
+.Dropdown
+	position: absolute
+	right: 0
+	top: 20px
+	span
+		color: #fff
+		width: 170px
+		display: block
+		cursor: pointer
+		text-decoration: none
+		padding: 11px 25px
+		background: #4a423d
+		position: relative
+		i
+			position: absolute;
+			right: 13px;
+			top: 11px;
+			font-size: 20px;
+.Dropdown__list
+	margin-top: 10px;
+	width: 170px;
+	background: #4a423d;
+	position: relative
+	i
+		font-size: 25px;
+		top: -16px;
+		right: 11px;
+		color: #4a423d;
+		position: absolute
+	a
+		display: block;
+		padding: 10px 25px;
+		color: #fff;
+.Modalalldata
+	margin-bottom: 60px;
+	.Modalsession
+		padding: 10px 0 30px 0;
+.box
+	background: #fcfae7
+	text-decoration: none
+	margin: 0 10px
+	padding: 10px 25px
+	background: #4a423d
+	color: #4a423d
+	border: 1px solid #4a423d
+	background: none
+
+.box.active
+	background: #4a423d;
+	color: #fff
+.Modalalldata
+	.Modaldate a.Modaldate__btn
+		color: #4a423d;
+		border: 1px solid #4a423d;
+		background: none;
+	.Modaldate a.btn-bg-none
+		color: #fff;
+		text-decoration: none;
+		margin: 0 10px;
+		padding: 10px 25px;
+		background: #4a423d;
+.ExitForm
+	padding: 50px 0 0px;
+	max-width: 270px;
+	margin: 0 auto
+	.ExitForm__title
+		font-weight: bold
+		font-size: 16px
+		margin-bottom: 10px
+	input
+		margin-bottom: 30px
+		background: #fcfae7
+		border: 1px solid #c7b884
+		width: 100%
+		height: 30px;
+		display: block
+		padding: 10px;
+	.SaveMe
+		margin-bottom: 30px;
+	label
+		text-align: center
+		margin: 0 46px 30px;
+		font-weight: bold
+		input
+			height: 20px
+			width: 20px
+			margin: 0
+			background: #fcfae7
+			margin-right: 15px
+			display: inline-block
+			vertical-align: middle;
+	a.ForgotPassword
+		text-align: center;
+		display: block;
+		color: #c7b884
+		margin-bottom: 50px;
+		font-weight: bold
+	button
+		background: none;
+		border: 0
+.NoCabinet
+	text-align: center
+	padding: 30px 0 30px
+	margin-bottom: 20px;
+	background: #fcfae7
+	.NoCabinet__title
+		font-weight: lighter
+		font-size: 16px;
+		margin-bottom: 30px
+.PasswordRecoveryFinish
+	max-width: 480px
+	margin: 0 auto
+	.PasswordRecoveryFinish__title
+		text-align: center
+		margin-top: 120px;
+		font-size: 16px;
+		font-weight: 500
+		margin-bottom: 60px;
+	.Modaltop
+		border: 0
+.btn-gray
+	background: #7a716c!important
+.ExitForm .SaveMe-Registration label
+	margin: 0 -50px 30px;
+.Payment-menu
+	padding: 20px 0px
+	.logo-container
+		flex-basis: 20%;
+		max-width: 20%;
+			
+	ul
+		li
+			display: inline-block
+			vertical-align: middle
+			a
+				padding: 8px 9px;
+				font-size: 16px;
+				font-weight: 500;
+				color: #fff;
+				font-weight: 500;
+				text-transform: uppercase;
+				text-decoration: none;
+				background: transparent;
+				z-index: 2;
+.Payment-exit
+	position: relative;
+	&:before
+		content: ''
+		position: absolute
+		height: 16px;
+		top: 4px;
+		width: 2px;
+		background: #fff;
+		left: 55px;
+.PersonalData
+	font-weight: 500
+	margin-bottom: 40px;
+	input[type="text"]
+		width: 100%;
+		background: fcfae7
+		height: 30px;
+		border: 1px solid #c7b884
+		border-radius: 4px;
+		padding: 0 10px;
+	input[type="checkbox"]
+		width: 16px
+		height: 16px
+		margin-right: 15px
+		display: inline-block
+		vertical-align: middle
+	label
+		font-size: 16px;
+		font-weight: 500;
+		display: inline-block
+		vertical-align: middle
+		text-align: center
+		width: 520px;
+		margin-bottom: 40px;
+	&__form
+		margin-top: 60px
+.title-password
+	text-align: center
+	font-size: 24px
+	color: #cdb884
+	margin-bottom: 35px
+.сhange-password
+	position: relative
+	padding: 35px 125px
+	background: #fcfae7;
+	margin: 30px 0 30px 0
+	&:before
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		background: #fcfae7;
+		width: 3000px;
+		left: 100%;
+	&:after
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		background: #fcfae7;
+		width: 3000px;
+		right: 100%;
+	.ExitForm__title
+		margin-bottom: 10px
+	input
+		margin-bottom: 10px
+a.btn-bg-none
+	color: #4a423d;
+	border: 1px solid #4a423d;
+	background: none;
+.PersonalData__form
+	.btn
+		margin: 0 10px;
+		float: right
+	.btn-center
+		width: 335px;
+.Modaldate
+	.title
+		float: left
+		font-size: 24px;
+		color: #cdb884;
+		margin-bottom: 0;
+.Hall
+	position: relative
+	&__bottom
+		padding: 30px 0
+	&__places
+		font-size: 24px;
+		float: left;
+		color: #cdb884;
+		margin-bottom: 0;
+		font-weight: bold
+		span
+			color: #4a423d;
+	&__sum
+		font-size: 24px;
+		float: left;
+		color: #cdb884;
+		margin-bottom: 0;
+		padding-left: 340px;
+		font-weight: bold
+		span
+			color: #4a423d;
+	.Modalnext-container
+		float: right
+	&__emerald
+		padding-bottom: 60px;
+		width: 350px;
+		min-height: 350px;
+		position: relative;
+		margin: 0 auto;
+
+	&__title
+		text-align: center;
+		font-size: 24px;
+		color: #cdb884;
+		font-weight: bold
+		margin-bottom: 40px;
+	&__name
+		font-size: 24px;
+		color: #cdb884;
+		margin-bottom: 0;
+		font-weight: bold
+		span
+			color: #4a423d;
+	&__info
+		position: absolute
+		right: 0
+	&__time
+		margin-right: 25px;
+		font-size: 16px
+		font-weight: 500
+		color: #4a423d
+		display: inline-block
+		vertical-align: middle
+	.Modaldate_container
+		padding: 20px 0px;
+.chairs
+	position: absolute;
+	width: 21px;
+	text-align: center;
+	line-height: 19px;
+	height: 23px;
+	border-radius: 15% 15% 25% 25%;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer
+	background: #008f3b;
+	&:after
+		content: '';
+		height: 1.5px;
+		background: #fff;
+		bottom: 5px;
+		left: 0;
+		position: absolute;
+		width: 21px;
+		border-radius: 0 0 1000% 1000%;
+
+.screen
+	width: 600px;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 19px;
+	color: #fff;
+	margin: 0 auto
+	margin-bottom: 30px
+	position: relative;
+	&:before,&:after
+		content: ''
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		width: 1700px
+		height: 1000px
+		background: #333
+		border-radius: 50%
+	&:after
+		content: '';
+		background: #fff;
+		top: 20px;
+		width: 2400px;
+	span
+		position: relative;
+		font-size: 16px;
+		font-weight: bold
+		z-index: 3;
+.wrap-border
+	border-bottom: 1px solid #cdb884;
+.Hall__info-bottom
+	top: 75px;
+.Modaldate_container-fin
+	min-height: 120px;
+.TiketsEnd
+	&__title
+		padding: 27px 0;
+	&__info
+		min-height: 150px
+		max-width: 500px;
+		margin: 0 auto;
+		.Hall__sum
+			padding-left: 0px;
+			float: right;
+.TiketsEnd__info
+	.title
+		display: block;
+		width: 100%;
+		text-align: center
+		float: left
+		margin-top: 50px
+.btn-center
+	margin: 0 auto
+	width: 200px;
+	margin-bottom: 30px;
+.TiketsForm__WARNING
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center
+.ExitForm button
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	background: #4a423d;
+	font-weight: lighter;
